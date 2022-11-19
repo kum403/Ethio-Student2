@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  height: 100vh;
+}
+
+section {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div {
+  width: 100%;
+  padding: 0 2em;
+}
+
+a {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: 0.5em 0;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, left top, right top, from(cyan), color-stop(darkcyan), to(cyan));
+  background: linear-gradient(to right, cyan, darkcyan, cyan);
+}
+
+a:active {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+}
+
+.result {
+  color: red;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.result p {
+  font-weight: 700;
+}
+/*# sourceMappingURL=exam-result.css.map */

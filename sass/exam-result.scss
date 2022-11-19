@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    text-align:center;
+}
+main{
+    height:100vh;
+    // outline:2px solid red;
+    // outline-offset:-2px;
+}
+section{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+div{
+    width:100%;
+    padding:0 2em;
+    // border:2px solid yellow;
+}
+a{
+    width:100%;
+    display:inline-block;
+    text-decoration:none;
+    padding:1em 2em;
+    margin:0.5em 0;
+    color:white;
+    font-weight:700;
+    font-size:18px;
+    border-radius:8px;
+    background:linear-gradient(to right, cyan, darkcyan, cyan);
+    
+}
+a:active{
+    transform:scale(0.97);
+}
+
+
+// grade 8
+
+.result{
+    color:red;
+    font-size:20px;
+    font-weight:700px;
+    p{
+        font-weight:700;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethio Students</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/grades.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav class="container-nav">
+            <div class="for-desktop">
+                <ul>
+                    <li class="logo"><img src="" alt="LOGO"></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#books">Books</a></li>
+                    <li><a href="exam-result.html">Exam Result</a></li>
+                    <li class="about"><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="for-mobile">
+                <img src="../img/logo.png" alt="mo-logo">
+
+
+                <div class="menu-list">
+                    <ul>
+                        <li ><a class="li" href="../index.html">Home</a></li>
+                        <li ><a class="li" href="../index.html#books">Books</a></li>
+                        <li ><a class="li" href="exam-result.html">Exam Result</a></li>
+                        <li  id="about"><a class="li" href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+                <a onclick="menu()" href="#" class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span id="last-span"></span>
+                </a>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>grade-11 Natural science</h1>
+        <div class="subject-container">
+            <div class="column">
+                
+                <div class="subject">
+                    <span>1</span> <button value="../document/grade-9/Grade_9_mathematics.pdf" >Maths</button>
+                </div>
+    
+                <div class="subject">
+                    <span>2</span><button value=""> Physics</button>
+                </div>
+    
+                <div class="subject">
+                    <span>3</span> <button value=""> Biology</button>
+                </div>
+    
+                <div class="subject">
+                    <span>4</span>  <button value="">Chemistry</button>
+                </div>
+    
+                <div class="subject">
+                    <span>5</span>  <button value=""> Geography</button>
+                </div>
+    
+                <div class="subject">
+                    <span>6</span><button value=""> History</button>
+                </div>
+            </div>
+            <div class="column">
+
+                <div class="subject">
+                    <span>7</span><button value=""> Civic</button>
+                </div>
+    
+                <div class="subject">
+                    <span>8</span><button value=""> Pysical</button>
+                </div>
+    
+                <div class="subject">
+                    <span>9</span><button value=""> ICT</button>
+                </div>
+    
+                <div class="subject">
+                    <span>10</span> <button value="">Amaric</button>
+                </div>
+    
+                <div class="subject">
+                    <span>11</span><button value=""> Oromic</button>
+                </div>
+    
+                <div class="subject last">
+                    <span>12</span><button>English</button>
+    
+                </div>
+            </div>
+        </div>
+
+        <!-- popup download button -->
+        
+        <div class=" overlay-msg-js"></div>
+        <div class="wrapper-option">
+            <div class="position-ralative">
+                <button onclick="exit()" class="cancel">X</button>
+                <h2 class="picked-book">maths</h2>
+               <a href="" class="download-url"> <button onclick="setTimeout(function(){download()},1000)">Download</button> </a>
+                <!-- <button>Open</button> -->
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/grades.js"></script>
+</body>
+
+</html>

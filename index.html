@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethio-Student-hub-info</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav class="container-nav">
+            <div class="for-desktop">
+                <ul>
+                    <li class="logo"><img src="" alt="LOGO"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="./html/exam-result.html">Exam Result</a></li>
+                    <li class="about"><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="for-mobile">
+                <img src="./img/logo.png" alt="mo-logo">
+
+                <div class="menu-list">
+                    <ul>
+                        <li ><a class="li" href="#">Home</a></li>
+                        <li ><a class="li" href="#books">Books</a></li>
+                        <li ><a class="li" href="./html/exam-result.html">Exam Result</a></li>
+                        <li  id="about" ><a class="li" href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+                <a onclick="menu()" href="#" class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span id="last-span"></span>
+                </a>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container">
+        <section class="main-centering">
+            <div  class="hero-page">
+                <div class="hero-title">
+                    <h1>Welcome to Ethio students
+
+
+                         <div class="header-footer">
+                        <p style="
+                        text-align:center;
+                         font-size:13px; 
+                         color:#a1a1a;
+                         font-weight:bolder;
+                         margin-top: -7px;
+                        ">info hub</p>
+                    </div>
+                    </h1>
+                   
+                    <p style="opacity:0; height:2px;">Ethio student info hub is best resource</p>
+                    <!-- <p class="for-desktop-para">This website is created for ethiopian students</p> -->
+
+                </div>
+                <div class="hero-img">
+                    <div class="img"><img class="book-animation" src="img/books/math.png" alt="books"></div>
+                    <p class="hide-hero-para">Education is the most powerful weapon which you can use to change the world</p>
+                    <p class="hide-hero-para footer">Nelson Mandela</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="books" class="section2">
+            <div class="books-container">
+                <h3>Books</h3>
+                <div class="grades">
+                    <div class="column">
+                        <a class="grade-btn" href="#">Grade-9</a>
+                        <a class="grade-btn" href="#">Grade-10</a>
+
+                    </div>
+
+                    <div class="column">
+                        <a class="grade-btn" href="#">Grade-11</a>
+                        <a class="grade-btn" href="#">Grade-12</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <a class="exam-result-main" href="./html/exam-result.html">Exam-result</a>
+            </div>
+        </section>
+
+
+        <div class="coming-soon">
+            <div class=".overlay"></div> 
+            <div class="coming-soon-options">
+                <div class="position-ralative-coming">
+                    <button onclick="cancelComing()" class="cancel">X</button>
+                    <h2 class="coming-soon-text">coming soon...</h2>
+                   <a href="#" class="cancel-coming"> <button onclick="cancelComing()">Cancel</button> </a>
+                    <!-- <button>Open</button> -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/grades.js"></script>
+</body>
+
+</html>
